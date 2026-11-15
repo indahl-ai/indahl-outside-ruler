@@ -1,0 +1,17 @@
+{
+  "name": "indahl-outside-ruler",
+  "owner": {
+    "name": "Heuremen LLC",
+    "url": "https://indahl.ai"
+  },
+  "plugins": [
+    {
+      "name": "indahl-outside-ruler",
+      "source": "./",
+      "description": "Check your own work against a ruler you did not build before it goes out. Runs a referee pass on the raw material with ten checks and returns STANDS, MOVES (with exact changes) or HOLD. Runs inside your session.",
+      "version": "1.0.0",
+      "category": "research",
+      "homepage": "https://indahl.ai/standard"
+    }
+  ]
+}
