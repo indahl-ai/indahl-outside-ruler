@@ -41,3 +41,7 @@ Each gets an answer: holds (and what was checked), fails (and where), or cannot 
 - **HOLD**: a check fails in a way that changes the conclusion; say what would clear it.
 
 Keep the referee's notes beside the release as its receipt. A correction found later is written beside the original, never over it.
+
+## With the indahl.ai connector
+
+This plugin connects the indahl.ai checks server (`https://indahl.ai/mcp/checks`, read-only, no account). When its tools `quote_check`, `number_check`, `source_check`, `claim_wording_check` are available, run the computable part of the check with them and report the tool's outcome and reason as returned, then do the reading the tool cannot do. The tool reads only what is passed to it and public sources; it never sees local files unless their text is passed.
